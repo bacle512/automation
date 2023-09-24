@@ -29,4 +29,4 @@ my_password = ''
 for i in range(password_len):
     my_password += random.choice(string.ascii_letters + string.digits)
 
-print("Mật khẩu mới của bạn: ", my_password)
+print("Mật khẩu mới của bạn:", my_password)
