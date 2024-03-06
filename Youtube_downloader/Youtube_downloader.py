@@ -36,7 +36,7 @@ def helloCall():
         
         #download video từ link youtube_url và bỏ vào thư mục muốn
         stream = youtube_url.streams.get_highest_resolution()
-        download_path = "D:\Python\Automation\Youtube_downloader"
+        download_path = "E:\Youtube_download"
         stream.download(output_path= download_path)
         
         messagebox.showinfo("Message", 'Video has been downloaded')
